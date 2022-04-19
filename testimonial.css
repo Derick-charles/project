@@ -1,0 +1,71 @@
+h4{
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 35px;
+}
+.card{
+    border-radius:30px;
+    border-color: transparent;
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow:  11px 11px 28px #a1a1a1,
+             -11px -11px 28px #ffffff;
+}
+.card:hover{
+    transition:1.5s;
+    transform:translateY(-15px);
+}
+.color{
+    height: 150px;
+    border-bottom: transparent;
+    z-index: 5;
+    background-color:#e43c5c;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+}
+img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    z-index: 10;
+    margin-top:-45px;
+    margin-left:100px;
+}
+img:hover{
+    transition:1.5s ;
+    transform:translateY(-10px);
+}
+#testimonials .reviews{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2.0em;
+    row-gap: 2.0em;
+    margin-left: 100px;
+}
+.button{
+    width: 450px;
+    display:flex;
+    justify-content:end;
+}
+.review{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 30px;
+    border-color: transparent;
+    background-color: hsl(0, 0%, 74%);
+     background-color:#e43c5c;
+     margin-top: 30px;
+}
+.review a{
+    text-decoration: none;
+    color: white;
+   
+}
+.review:hover{
+    transform: translateX(20px);
+    transition: 1.5s;
+}

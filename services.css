@@ -1,0 +1,66 @@
+.services h4{
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+.services p{
+    font-size:16px;
+    font-weight:lightweight;
+    line-height: 1.6em;
+}
+.services .form-text{
+    margin-left: 100px;
+    border:solid 1px #ccc;
+    padding:20px;
+   width:530px;
+   border-radius: 19px;
+   background-color: #ffffff;
+   box-shadow:  20px 20px 40px #bfbfbf,
+            -20px -20px 40px #ffffff;
+}
+.services form {
+    padding:20px;
+    line-height: 1.6em;
+}
+.services .text{
+    border: #fff;
+    width: auto;
+    padding:20px;
+    border-radius: 19px;
+    background-color: #ffffff;
+    box-shadow:  20px 20px 40px #bfbfbf,
+             -20px -20px 40px #ffffff;
+}
+.services textarea {
+    padding:10px;
+   
+    padding-bottom: 100px;
+    width: auto;
+}
+.services .form-button{
+    border: solid #e43c5c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius:30px;
+}
+.services .form-button:hover{
+    background-color: #e43c5c;
+    color: #fff;
+    transition: 0.5s;
+}
+.services .back{
+    border: solid #e43c5c;
+    background-color: #e43c5c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius:30px;
+}
+.services .back a{
+    color:white;
+    text-decoration:none;
+}
